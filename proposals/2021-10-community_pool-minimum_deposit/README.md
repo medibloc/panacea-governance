@@ -15,7 +15,7 @@ Staking rewards of validators and delegators will be slightly reduced since the 
 
 In addition, we suggest lowering the minimum proposition to induce active participations in governance proposals.<br/>
 Currently, the minimum cost to submit a proposal is 100,000 MED which is quite big.<br/>
-So, we propose to change it to 10,000 MED to lower a hurdle to register proposals.
+So, we propose to change it to 10,000 MED to lower a hurdle to register proposals (600 USD approximately on Sep 2021).
 
 
 ### Expected effects
