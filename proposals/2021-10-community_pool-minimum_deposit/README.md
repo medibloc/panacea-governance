@@ -11,7 +11,7 @@ Community pool is a means of funding participants who contribute to the Panacea 
 As other Cosmos-based chains, we would like to use the community pool through governance votings to support contributions which boost the Panacea ecosystem, such as outstanding improvements, events and marketing.<br/>
 You can find various use-cases of the community pool from other Cosmos-based chains: https://github.com/medibloc/panacea-core/issues/186#issuecomment-927537658. 
 
-Although staking rewards of validators and delegators will be slightly reduced since the 2% of transactions fees will go to the community pool, the raised funds in the community pool will surely accelerate the Panacea ecosystem.
+Staking rewards of validators and delegators will be slightly reduced since the 2% of staking rewards (= block provision + tx fees) will go to the community pool. But, the raised funds in the community pool will surely accelerate the Panacea ecosystem.
 
 In addition, we suggest lowering the minimum proposition to induce active participations in governance proposals.<br/>
 Currently, the minimum cost to submit a proposal is 100,000 MED which is quite big.<br/>
