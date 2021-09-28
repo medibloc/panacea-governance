@@ -4,7 +4,8 @@ We would like to change two parameters as follows.
 - Change the minimum proposal deposit from 100,000MED to 10,000MED.
 
 ### Background
-Community pool is a means of funding those who contribute through governance voting.
+Community pool can fund those who contribute through governance voting.
+This community pool will be filled with a certain amount of mining reward as a fee.
 Cosmos Hub is using this Community Pool to fund contributors.(https://github.com/medibloc/panacea-core/issues/186#issuecomment-927537658).
 Panacea also proposes to be able to fund multiple contributors for better development.
 Although the rewards of validator and delegates will be slightly reduced, the raised funds from Community Pool will surely help Panacea's ecosystem.
@@ -17,6 +18,6 @@ So, we suggest changing it to 10,000MED to reduce the burden of registering the 
 ### Expected effects
 Mining rewards from validator and delegates will be reduced. (About 2%)
 This fund will be transferred to Community Pool.
-If Panacea has a contributor to helping the ecosystem, it can be spend at Community Pool through voting.
+If the contributor helps the ecosystem of panacea, it can be funded through governance voting.
 
-When registering a proposal, the cost of fundraising will be reduced to 10,000MED.
+When registering a proposal, the deposit required for the proposal is reduced to 10,000 MED.
