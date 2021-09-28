@@ -1,0 +1,24 @@
+{
+  "title": "Activate the community pool and Lower the minimum proposal deposit",
+  "description": "### Abstract\n\nWe would like to change two parameters as follows.\n- Change the community tax from 0% to 2%.\n- Change the minimum proposal deposit from 100,000 MED to 10,000 MED.\n\n\n### Background\n\nCommunity pool is a means of funding participants who contribute to the Panacea ecosystem.\nAs other Cosmos-based chains, we would like to use the community pool through governance votings to support contributions which boost the Panacea ecosystem, such as outstanding improvements, events and marketing.\nYou can find various use-cases of the community pool from other Cosmos-based chains: https://github.com/medibloc/panacea-core/issues/186#issuecomment-927537658. \n\nAlthough staking rewards of validators and delegators will be slightly reduced since the 2% of transactions fees will go to the community pool, the raised funds in the community pool will surely accelerate the Panacea ecosystem.\n\nIn addition, we suggest lowering the minimum proposition to induce active participations in governance proposals.\nCurrently, the minimum cost to submit a proposal is 100,000 MED which is quite big.\nSo, we propose to change it to 10,000 MED to lower a hurdle to register proposals.\n\n\n### Expected effects\n\n- The 2% of transaction fees will go to the community pool which can be spent only through governances.\n    - Staking rewards of validators and delegators will be slightly reduced.\n- By lowering the minimum proposal deposit to 10,000 MED, more participants will be able to submit proposals.",
+  "changes": [
+    {
+      "subspace": "distribution",
+      "key": "communitytax",
+      "value": "0.020000000000000000"
+    },
+    {
+      "subspace": "gov",
+      "key": "depositparams",
+      "value": {
+        "min_deposit": [
+          {
+            "denom": "umed",
+            "amount": "10000000000"
+          }
+        ]
+      }
+    }
+  ],
+  "deposit": "100000000000umed"
+}
