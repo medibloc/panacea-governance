@@ -20,6 +20,5 @@ So, we propose to change it to 10,000 MED to lower a hurdle to register proposal
 
 ### Expected effects
 
-- The 2% of transaction fees will go to the community pool which can be spent only through governances.
-    - Staking rewards of validators and delegators will be slightly reduced.
+- The 2% of staking rewards will go to the community pool which can be spent only through governances.
 - By lowering the minimum proposal deposit to 10,000 MED, more participants will be able to submit proposals.
