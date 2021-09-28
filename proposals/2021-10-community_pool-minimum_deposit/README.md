@@ -1,23 +1,25 @@
 ### Abstract
+
 We would like to change two parameters as follows.
 - Change the community tax from 0% to 2%.
-- Change the minimum proposal deposit from 100,000MED to 10,000MED.
+- Change the minimum proposal deposit from 100,000 MED to 10,000 MED.
+
 
 ### Background
-Community pool can fund those who contribute through governance voting.<br/>
-This community pool will be filled with a certain amount of mining reward as a fee.<br/>
-Cosmos Hub is using this Community Pool to fund contributors.(https://github.com/medibloc/panacea-core/issues/186#issuecomment-927537658). <br/>
-Panacea also proposes to be able to fund multiple contributors for better development.<br/>
-Although the rewards of validator and delegates will be slightly reduced, the raised funds from Community Pool will surely help Panacea's ecosystem.
 
-In addition, We suggest lowering the minimum proposition to induce active participation in governance proposals.<br/>
-Currently, the minimum cost of registering the proposal is 100,000MED.<br/>
-This is about $6,000, which is not easy for even contributors with good ideas to register proposals.<br/>
-So, we suggest changing it to 10,000MED to reduce the burden of registering the proposal.
+Community pool is a means of funding participants who contribute to the Panacea ecosystem.<br/>
+As other Cosmos-based chains, we would like to use the community pool through governance votings to support contributions which boost the Panacea ecosystem.<br/>
+You can find various use-cases of the community pool from other Cosmos-based chains: https://github.com/medibloc/panacea-core/issues/186#issuecomment-927537658. 
+
+Although staking rewards of validators and delegators will be slightly reduced since the 2% of transactions fees will go to the community pool, the raised funds in the community pool will surely accelerate the Panacea ecosystem.
+
+In addition, we suggest lowering the minimum proposition to induce active participations in governance proposals.<br/>
+Currently, the minimum cost to submit a proposal is 100,000 MED which is quite big.<br/>
+So, we propose to change it to 10,000 MED to lower a hurdle to register proposals.
+
 
 ### Expected effects
-Mining rewards from validator and delegates will be reduced. (About 2%)<br/>
-This fund will be transferred to Community Pool.<br/>
-If the contributor helps the ecosystem of panacea, it can be funded through governance voting.<br/>
 
-When registering a proposal, the deposit required for the proposal is reduced to 10,000 MED.
+- The 2% of transaction fees will go to the community pool which can be spent only through governances.
+    - Staking rewards of validators and delegators will be slightly reduced.
+- By lowering the minimum proposal deposit to 10,000 MED, more participants will be able to submit proposals.
