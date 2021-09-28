@@ -8,7 +8,7 @@ We would like to change two parameters as follows.
 ### Background
 
 Community pool is a means of funding participants who contribute to the Panacea ecosystem.<br/>
-As other Cosmos-based chains, we would like to use the community pool through governance votings to support contributions which boost the Panacea ecosystem.<br/>
+As other Cosmos-based chains, we would like to use the community pool through governance votings to support contributions which boost the Panacea ecosystem, such as outstanding improvements, events and marketing.<br/>
 You can find various use-cases of the community pool from other Cosmos-based chains: https://github.com/medibloc/panacea-core/issues/186#issuecomment-927537658. 
 
 Although staking rewards of validators and delegators will be slightly reduced since the 2% of transactions fees will go to the community pool, the raised funds in the community pool will surely accelerate the Panacea ecosystem.
