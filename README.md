@@ -6,7 +6,7 @@
 `TextProposal All` the proposals that do not involve a modification of the source code go under this type. For example, an opinion poll would use a proposal of type TextProposal.
 
 ```shell
-panacead tx gov submit-proposal --proposal "path/to/proposal.json" --from {key or address} --chain-id {chain_id} 
+panacead tx gov submit-proposal --proposal "path/to/proposal.json" --from {key or address} --chain-id {chain_id} --node https://rpc.gopanacea.org:443  
 ```
 
 proposal.json
@@ -23,7 +23,7 @@ proposal.json
 `CommunityPoolSpendProposal` details a proposal for use of community funds, together with how many coins are proposed to be spent, and to which recipient account.
 
 ```shell
-panacead tx gov submit-proposal community-pool-spend "path/to/proposal.json" --from {key or address} --chain-id {chain_id}
+panacead tx gov submit-proposal community-pool-spend "path/to/proposal.json" --from {key or address} --chain-id {chain_id} --node https://rpc.gopanacea.org:443
 ```
 
 proposal.json
@@ -41,7 +41,7 @@ proposal.json
 `ParameterChangeProposal` defines a proposal to change one or more parameters. If accepted, the requested parameter change is updated automatically by the proposal handler upon conclusion of the voting period.
 
 ```shell
-panacead tx gov submit-proposal param-change "path/to/proposal.json" --from {key or address} --chain-id {chain_id}
+panacead tx gov submit-proposal param-change "path/to/proposal.json" --from {key or address} --chain-id {chain_id} --node https://rpc.gopanacea.org:443
 ```
 
 proposal.json
