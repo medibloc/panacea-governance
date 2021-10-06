@@ -3,7 +3,7 @@
 
 ## TextProposal
 
-`TextProposal All` the proposals that do not involve a modification of the source code go under this type. For example, an opinion poll would use a proposal of type TextProposal.
+All the proposals that do not involve a modification of the source code go under this type. For example, an opinion poll would use a proposal of type TextProposal.
 
 ```shell
 panacead tx gov submit-proposal --proposal "path/to/proposal.json" --from {key or address} --chain-id {chain_id} --node https://rpc.gopanacea.org:443  
