@@ -74,8 +74,8 @@ proposal.json
 
 ## SoftwareUpgradeProposal
 If this software upgrade proposal passes, it will be upgraded to the version registered in the proposal.
-Once the proposal is passed, all nodes are interrupted at the specified height or time.
-The node operator changes the chain to the version specified in the proposal and start it.
+Once the proposal is passed, the state machine of all nodes are interrupted at the specified block height or time.
+Then, all node operators must stop the daemon, replace the binary with the new version specified in the proposal, and start it.
 
 ## CancelSoftwareUpgradeProposal
 `CancelSoftwareUpgradeProposal` is a gov Content type for cancelling a software upgrade.
