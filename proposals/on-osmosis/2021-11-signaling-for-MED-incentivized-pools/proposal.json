@@ -1,0 +1,6 @@
+{
+  "type": "Text",
+  "title": "Signaling Proposal for MED Incentivized Pools",
+  "description": "This is a signaling proposal to include MED pools into the set of assets that get OSMO liquidity incentives.\n\nThe following liquidity pools have been live on Osmosis since 23 Nov 2021.\n- MED/OSMO (Pool #586)\n- MED/ATOM (Pool #587)\n\nBy voting YES on this proposal, OSMO stakers voice their support in adding OSMO incentives to these MED liquidity pools on Osmosis.\nBy voting NO on this proposal, OSMO stakers voice their dissent in adding OSMO incentives to these MED liquidity pools on Osmosis.\n\nAfter this proposal has passed governance, the Liquidity Providers on MED pools will benefit from following incentives:\n- OSMO incentives\n- Swap fees",
+  "deposit": "10000000000umed"
+}
