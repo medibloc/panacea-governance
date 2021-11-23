@@ -3,6 +3,8 @@ NOTE: This proposal should be submitted to the Osmosis blockchain.
 
 # Signaling Proposal for MED Incentivized Pools
 
+### Proposal Details
+
 This is a signaling proposal to include MED pools into the set of assets that get OSMO liquidity incentives.
 
 The following liquidity pools have been live on Osmosis since 23 Nov 2021.
