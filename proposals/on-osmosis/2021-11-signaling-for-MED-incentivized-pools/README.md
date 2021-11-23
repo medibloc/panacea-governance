@@ -16,6 +16,8 @@ After this proposal has passed governance, the Liquidity Providers on MED pools 
 - OSMO incentives
 - Swap fees
 
+Also, the Panacea team is preparing additional proposal for External MED Incentives in order to incentivize more liquidity to be provided.
+
 
 ### About Panacea & MediBloc
 
