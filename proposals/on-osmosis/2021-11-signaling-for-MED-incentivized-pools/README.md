@@ -19,7 +19,7 @@ After this proposal has passed governance, the Liquidity Providers on MED pools 
 
 ### About Panacea & MediBloc
 
-Panacea is a blockchain that is an essential layer for building user-owned data ecosystems, especially a patient-centered health data ecosystem, that empower data owners to take proper benefits and protect privacy. Currently, Panacea is being mainly developed/maintained by MediBloc.
+Panacea is a blockchain that is an essential layer for building user-owned data ecosystems, especially a patient-centered health data ecosystem, that empower data owners to take proper benefits and protect privacy. Currently, Panacea is being developed mainly by MediBloc.
 The Panacea network has been online since 2019, and MED is the native token of the Panacea.
 
 Website: https://medibloc.com/en/
