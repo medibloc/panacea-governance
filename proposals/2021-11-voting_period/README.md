@@ -19,4 +19,4 @@ If you refer to other chains, Terra has recently been changed to 7 days, and Osm
 
 ### Expected effects
 
-- Once the proposal is registered and 10,000 MED is deposited, the voting that starts will be held for three days, allowing quick changes to be applied.
+- Once this proposal is passed, all subsequent proposals will have a three-day voting period.
