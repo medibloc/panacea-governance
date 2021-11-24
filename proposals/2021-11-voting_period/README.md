@@ -14,7 +14,7 @@ We suggest reducing the voting period for governance to 3 days.<br/>
 You may feel that these three days of time do not have enough time to discuss a proposal, but we are preparing to create a community where we can discuss it sufficiently before posting an important proposal.<br/>
 We fully discuss important proposals in the community and expect that the three-day voting time will not be a problem if the proposal is posted later.
 
-If you refer to other chains, Terra has recently been changed to 7 days, and Osmosis has a 3 day voting period.<br/>
+If you refer to other chains, Terra has recently changed the voting period to 7 days, and Osmosis has a 3 day voting period.<br/>
 
 
 ### Expected effects
