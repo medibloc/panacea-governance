@@ -27,8 +27,8 @@ The MediBloc foundation has prepared 12,370,000 MED which is approximately equiv
 
 
 That total budget will be provided to the following MED pools as external incentives for liquidity provision:
-- MED/OSMO (Pool #586): ~68,000 MED per day for 90 days (= ~$5,000)
-- MED/ATOM (Pool #587): ~68,000 MED per day for 90 days (= ~$5,000)
+- MED/OSMO (Pool #586): ~68,722 MED per day for 90 days (= ~$5,000)
+- MED/ATOM (Pool #587): ~68,722 MED per day for 90 days (= ~$5,000)
 
 All MED used for these liquidity incentives will be matched with an equal value of OSMO incentives if this proposal is passed by the Osmosis community.
 
