@@ -14,19 +14,19 @@ A signaling proposal for promoting MED pools to Incentivized Pools is in its vot
 
 ### Proposal Details
 
-This is a proposal to allocate ~$900,000 for MED/OSMO and MED/ATOM pools on Osmosis to be paid by the MediBloc foundation.<br/>
+This is a proposal to allocate ~$900,000-worth MEDs for MED/OSMO and MED/ATOM pools on Osmosis to be provided by MediBloc.<br/>
 Also, this proposes for the Osmosis community to launch the Incentive Matching program for MED pools.<br/>
-This is beneficial to increase liquidity and most importantly to ensure that price slippage is reduced.<br/>
+This helps increase liquidity and most importantly ensures that the price slippage can be reduced.<br/>
 
-By voting **YES** on this proposal, external MED incentives will be matched at ~$5,000 per pool per day for 90 days.<br/>
-By voting **NO** on this proposal, external MED incentives will NOT be matched at ~$5,000 per pool per day for 90 days.
+By voting **YES** on this proposal, external MED incentives will be matched at ~$5,000-worth MEDs per pool per day for 90 days.<br/>
+By voting **NO** on this proposal, external MED incentives will NOT be matched at ~$5,000-worth MEDs per pool per day for 90 days.
 
-The MediBloc foundation has prepared 12,370,000 MED which is approximately equivalent to $900,000 based on the average market closing price for the latest 7 days since 19 Nov 2021 (according to the historical data of CoinMarketCap).
+The MediBloc has prepared 12,370,000 MED which is approximately equivalent to $900,000 based on the average market closing price for the latest 7 days since 19 Nov 2021 (according to the historical data of CoinMarketCap).
 
 **TODO: The exact MED amount is to be determined.**
 
 
-That total budget will be provided to the following MED pools as external incentives for liquidity provision:
+The MED incentives for each MED pool will be the following:
 - MED/OSMO (Pool #586): ~68,722 MED per day for 90 days (= ~$5,000)
 - MED/ATOM (Pool #587): ~68,722 MED per day for 90 days (= ~$5,000)
 
