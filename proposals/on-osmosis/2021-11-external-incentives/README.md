@@ -8,17 +8,17 @@ NOTE: This proposal should be submitted to the Osmosis blockchain.
 
 As established in Osmosis Proposal [#47](https://www.mintscan.io/osmosis/proposals/47), the matching of external incentives requires a governance vote to add to the incentive model.
 
-MED liquidity pools have been listed on Osmosis since 23 Nov 2021.
-A signaling proposal for promoting MED pools to Incentivized Pools is in its voting period on the Osmosis chain: TODO: add a link!.
+MED liquidity pools have been listed on Osmosis since 23 Nov 2021.<br/>
+A signaling proposal for promoting MED pools to Incentivized Pools is in its voting period on the Osmosis chain: https://www.mintscan.io/osmosis/proposals/78.
 
 
 ### Proposal Details
 
-This is a proposal to allocate ~$900,000 for MED/OSMO and MED/ATOM pools on Osmosis to be paid by the MediBloc foundation.
-Also, this proposes for the Osmosis community to launch the Incentive Matching program for MED pools.
-This is benefical in order to increase liquidity and most importantly to ensure that price slippage is reduced.
+This is a proposal to allocate ~$900,000 for MED/OSMO and MED/ATOM pools on Osmosis to be paid by the MediBloc foundation.<br/>
+Also, this proposes for the Osmosis community to launch the Incentive Matching program for MED pools.<br/>
+This is benefical in order to increase liquidity and most importantly to ensure that price slippage is reduced.<br/>
 
-By voting **YES** on this proposal, external MED incentives will be matched at ~$5,000 per pool per day for 90 days.
+By voting **YES** on this proposal, external MED incentives will be matched at ~$5,000 per pool per day for 90 days.<br/>
 By voting **NO** on this proposal, external MED incentives will NOT be matched at ~$5,000 per pool per day for 90 days.
 
 The MediBloc foundation has prepared 12,370,000 MED which is approximately equivalent to $900,000 based on the average of market closing price for latest 7 days since 19 Nov 2021 (according to the historical data of CoinMarketCap).
