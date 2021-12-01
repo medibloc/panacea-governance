@@ -9,7 +9,7 @@ NOTE: This proposal should be submitted to the Osmosis blockchain.
 As established in Osmosis Proposal [#47](https://www.mintscan.io/osmosis/proposals/47), the matching of external incentives requires a governance vote to add to the incentive model.
 
 MED liquidity pools have been listed on Osmosis since 23 Nov 2021.<br/>
-A signaling proposal for promoting MED pools to Incentivized Pools is in its voting period on the Osmosis chain: https://www.mintscan.io/osmosis/proposals/78.
+A signaling proposal for promoting MED pools to Incentivized Pools has been passed: https://www.mintscan.io/osmosis/proposals/78. According to the signaling proposal, the UpdatePoolIncentives proposal is in its voting period: https://www.mintscan.io/osmosis/proposals/79.
 
 
 ### Proposal Details
