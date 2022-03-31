@@ -4,10 +4,10 @@
 ## Proposal
 
 Previously, the proposal #6 "Increase minimum commission rate to 5%" was submitted but was rejected.<br>
-https://www.mintscan.io/medibloc/proposals/6.
+https://www.mintscan.io/medibloc/proposals/6
 
 This topic has been discussed for a very long time in the Cosmos ecosystem.<br>
-https://forum.cosmos.network/t/proposal-are-validators-charging-0-commission-harmful-to-the-success-of-the-cosmos-hub/2505.
+https://forum.cosmos.network/t/proposal-are-validators-charging-0-commission-harmful-to-the-success-of-the-cosmos-hub/2505
 
 Although the proposal #6 was reasonable enough, MediBloc team also rejected it because we didn't have clear strategies and implementations for enforcing validators to increase their commission rate.
 
