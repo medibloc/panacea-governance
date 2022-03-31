@@ -37,7 +37,7 @@ If this signaling proposal is approved, MediBloc team will submit a SoftwareUpgr
 If the SoftwareUpgrade proposal is approved, the chain upgrade should be performed at the promised time by all validators and full node operators. All upgrade processes related to `min-commission-rate` are performed by the chain upgrade handler automatically.
 
 
-## What's next?
+## What's next
 
 MediBloc team is working on designing/implementing the Data Market Protocol on Panacea, so that individual data owners can provide/sell their data to individuals/companies who are willing to pay cryptocurrency for it.
 That would be the core value of the patient-centric healthcare data ecosystem that MediBloc wants to contribute to building.
