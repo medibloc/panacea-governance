@@ -3,15 +3,15 @@
 
 ## Proposal
 
-The topic of min-commision-rate has been discussed for a very long time in the Cosmos ecosystem.<br>
+The topic of min-commission-rate has been discussed for a very long time in the Cosmos ecosystem.<br>
 https://forum.cosmos.network/t/proposal-are-validators-charging-0-commission-harmful-to-the-success-of-the-cosmos-hub/2505
 
-Even in Panacea, the proposal to increase minimum commision rate to 5% (proposal #6) was submitted previously.<br>
+Even in Panacea, the proposal to increase minimum commission rate to 5% (proposal #6) was submitted previously.<br>
 https://www.mintscan.io/medibloc/proposals/6
 
-Although proposal #6 was reasonable enough, MediBloc team rejected the proposoal because the team has yet to develop clear strategies to enforce the validators with low commision rate to increase their commission rate.
+Although proposal #6 was reasonable enough, MediBloc team rejected the proposal because the team has yet to develop clear strategies to enforce the validators with low commission rate to increase their commission rate.
 
-Also, the team thought that the ideal network should work without a restriction on commission rate. So, instead of implementing the restriction, the team has convinced those validators with 0% commision rate to raise its commission rate to a reasonable rate. Thankfully, many validators have cooperated with us and raised their commision rates. But, after doing so, we realized that our approach is the inefficient and non-decentralized way. Hence, we have found it beneficial to have a minimum commission rate at least while the chain is in the early-stage. We belive this will improve the network sustainability and make it possible for validators to compete in healthy ways without setting the commission rate to 0%.
+Also, the team thought that the ideal network should work without a restriction on commission rate. So, instead of implementing the restriction, the team has convinced those validators with 0% commission rate to raise its commission rate to a reasonable rate. Thankfully, many validators have cooperated with us and raised their commission rates. But, after doing so, we realized that our approach is the inefficient and non-decentralized way. Hence, we have found it beneficial to have a minimum commission rate at least while the chain is in the early-stage. We believe this will improve the network sustainability and make it possible for validators to compete in healthy ways without setting the commission rate to 0%.
 
 Since then, MediBloc team has implemented a `min-commission-rate` parameter and a chain upgrade strategy for updating the commission rate of validators whose commission rate is smaller than `min-commission-rate`.
 
