@@ -3,19 +3,19 @@
 
 ## Proposal
 
-Previously, the proposal #6 "Increase minimum commission rate to 5%" was submitted but was rejected.<br>
-https://www.mintscan.io/medibloc/proposals/6
-
-This topic has been discussed for a very long time in the Cosmos ecosystem.<br>
+The topic of min-commision-rate has been discussed for a very long time in the Cosmos ecosystem.<br>
 https://forum.cosmos.network/t/proposal-are-validators-charging-0-commission-harmful-to-the-success-of-the-cosmos-hub/2505
 
-Although proposal #6 was reasonable enough, MediBloc team also rejected it because we didn't have clear strategies and implementations for enforcing validators to increase their commission rate.
+Even in Panacea, the proposal to increase minimum commision rate to 5% (proposal #6) was submitted previously.<br>
+https://www.mintscan.io/medibloc/proposals/6
 
-Also, the team thought that the ideal network should work without a minimum commission rate. So, instead of having the restriction, we have convinced some validators to set a reasonable commission rate. Thankfully, many validators have increased their commission rate. But, that is the inefficient and not-decentralized way. Instead, we have found that it is beneficial to have a minimum commission rate at least while the chain is in early-stage. This will improve network sustainability and make it possible for validators to compete in healthy ways without setting the commission rate to 0%.
+Although proposal #6 was reasonable enough, MediBloc team rejected the proposoal because the team has yet to develop clear strategies to enforce the validators with low commision rate to increase their commission rate.
+
+Also, the team thought that the ideal network should work without a restriction on commission rate. So, instead of implementing the restriction, the team has convinced those validators with 0% commision rate to raise its commission rate to a reasonable rate. Thankfully, many validators have cooperated with us and raised their commision rates. But, after doing so, we realized that our approach is the inefficient and non-decentralized way. Hence, we have found it beneficial to have a minimum commission rate at least while the chain is in the early-stage. We belive this will improve the network sustainability and make it possible for validators to compete in healthy ways without setting the commission rate to 0%.
 
 Since then, MediBloc team has implemented a `min-commission-rate` parameter and a chain upgrade strategy for updating the commission rate of validators whose commission rate is smaller than `min-commission-rate`.
 
-Now, MediBloc team is proposing to upgrade the chain to have the `min-commission-rate` parameter and set it to 3% to improve network sustainability.
+Now, MediBloc team is proposing to upgrade the chain to contain the `min-commission-rate` parameter and set it to 3% to improve network sustainability.
 
 
 ## What the chain upgrade contains
@@ -32,16 +32,16 @@ Now, MediBloc team is proposing to upgrade the chain to have the `min-commission
 
 ## How the chain upgrade will be performed
 
-If this signaling proposal is approved, MediBloc team will submit a SoftwareUpgrade proposal for upgrading the chain from v2.0.2 to v2.0.3 which contains all changes mentioned above.
+If this signaling proposal is approved, MediBloc team will submit a SoftwareUpgrade proposal for upgrading the chain from v2.0.2 to v2.0.3 which contains all the changes mentioned above.
 
-If the SoftwareUpgrade proposal is approved, the chain upgrade should be performed at the promised time by all validators and full node operators. All upgrade processes related to `min-commission-rate` are performed by the chain upgrade handler automatically.
+If and when the SoftwareUpgrade proposal is approved, the chain upgrade should be performed at the promised time by all validators and full node operators. All upgrade processes related to `min-commission-rate` will be performed by the chain upgrade handler automatically.
 
 
 ## What's next
 
 MediBloc team is working on designing/implementing the Data Market Protocol on Panacea, so that individual data owners can provide/sell their data to individuals/companies who are willing to pay cryptocurrency for it.
-That would be the core value of the patient-centric healthcare data ecosystem that MediBloc wants to contribute to building.
+This protocol will be a crucial piece to the patient-centric healthcare data ecosystem that MediBloc ultimately wants to build for the society.
 
-It would be great if we can make the network more sustainable and healthier before releasing the data market protocol on Panacea, so that the protocol can be run securely.
+It would be great if we can make the network more sustainable and healthier before releasing the data market protocol on Panacea, so that the protocol runs securely on Panacea.
 
 The revised Panacea roadmap can be found at https://medibloc.gitbook.io/panacea-core/overview/roadmap.
