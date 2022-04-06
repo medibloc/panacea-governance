@@ -20,14 +20,14 @@ Now, MediBloc team is proposing to upgrade the chain to contain the `min-commiss
 
 ## What the chain upgrade contains
 
-- The `medibloc/cosmos-sdk v0.42.11-panacea` is used instead of the `comsos/cosmos-sdk v0.42.9`.
+- The `medibloc/cosmos-sdk v0.42.11-panacea.1` is used instead of the `comsos/cosmos-sdk v0.42.9`.
     - The `medibloc/cosmos-sdk` is a simple fork of `cosmos/cosmos-sdk` with the new `min-commission-rate` parameter in the `x/staking` module.
-    - https://github.com/medibloc/cosmos-sdk/pull/27 (almost the same as the fork that Osmosis team had implemented)
+    - https://github.com/medibloc/cosmos-sdk/releases/tag/v0.42.11-panacea.1 (almost the same as the fork that Osmosis team had implemented)
 - The value of `min-commission-rate` is set to 3%.
     - Nobody can execute `create-validator` and `edit-validator` transactions with a commission rate smaller than `min-commission-rate`.
 - The commission rate of validators whose current commission rate is smaller than `min-commission-rate` is changed to 3% automatically.
     - If their commission max rate is also smaller than `min-commission-rate`, it is changed to 6% (= 2 * 3%) automatically.
-    - https://github.com/medibloc/panacea-core/pull/291
+    - https://github.com/medibloc/panacea-core/releases/tag/v2.0.3
 
 
 ## How the chain upgrade will be performed
