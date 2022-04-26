@@ -11,7 +11,7 @@ For more details about the rationale behind our introducing the min-commission-r
 
 ### What this chain upgrade contains
 
-Please see a release note: https://github.com/medibloc/panacea-core/releases/tag/v2.0.3
+Please see the release note: https://github.com/medibloc/panacea-core/releases/tag/v2.0.3
 
 
 ### Required actions by node operators
