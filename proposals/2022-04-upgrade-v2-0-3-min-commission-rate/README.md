@@ -9,7 +9,7 @@ The signaling proposal for this change has already been approved: https://www.mi
 For more details about the rationale behind our introducing the min-commission-rate parameter, please see the signaling proposal.
 
 
-### What the chain upgrade contains
+### What this chain upgrade contains
 
 Please see a release note: https://github.com/medibloc/panacea-core/releases/tag/v2.0.3
 
