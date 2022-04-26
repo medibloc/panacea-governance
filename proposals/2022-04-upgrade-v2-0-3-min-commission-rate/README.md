@@ -3,7 +3,7 @@
 
 ### Proposal
 
-This proposal is for upgrading the Panacea mainnet `panacea-3` from v2.0.2 to v2.0.3 for introducing a min-commission-rate parameter and setting it to 3%.
+This proposal is for upgrading the Panacea mainnet `panacea-3` from v2.0.2 to v2.0.3 to introduce a min-commission-rate parameter and setting it to 3%.
 
 A signaling proposal for this had been already approved: https://www.mintscan.io/medibloc/proposals/2.
 For more details about the motivation of introducing the min-commission-rate parameter, please see the signaling proposal.
