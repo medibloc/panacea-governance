@@ -19,7 +19,7 @@ Please see the release note: https://github.com/medibloc/panacea-core/releases/t
 If this SoftwareUpgrade proposal is approved, the state machine of the `panacead` will be stopped as soon as a proposed block time '2022-05-11 07:00:00 UTC' is reached.
 It means that new blocks will not be produced until the `panacead` daemon is restarted with the new version.
 
-Then, please replace the old `panacead` binary with the new one and restart the daemon by the following guide.
+Hence, please replace the old `panacead` binary with the new one and restart the daemon by following the guide below.
 https://github.com/medibloc/panacea-mainnet/blob/master/panacea-3/v2.0.3/upgrade.md
 
 If you are using the 'cosmovisor', please build the new 'panacead' binary manually and put that under the 'upgrade' directory. The auto-download is not supported yet because the appropriate version of the 'libwasmvm.so' must be installed as well.
