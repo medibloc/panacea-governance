@@ -22,4 +22,4 @@ It means that new blocks will not be produced until the `panacead` daemon is res
 Hence, please replace the old `panacead` binary with the new one and restart the daemon by following the guide below.
 https://github.com/medibloc/panacea-mainnet/blob/master/panacea-3/v2.0.3/upgrade.md
 
-If you are using the 'cosmovisor', please build the new 'panacead' binary manually and put that under the 'upgrade' directory. The auto-download is not supported yet because the appropriate version of the 'libwasmvm.so' must be installed as well.
+If you are using the 'cosmovisor', please build the new 'panacead' binary manually and put that under the 'upgrade' directory. The auto-download is not supported yet because the appropriate version of the 'libwasmvm.so' must be installed manually before starting the auto-download.
