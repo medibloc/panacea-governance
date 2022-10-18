@@ -1,6 +1,6 @@
 # Panacea v2.0.5 Upgrade
 
-This is a proposal to do a software upgrade to the v2.0.5 software tag of the Panacea codebase on block height 7,695,777, which is estimated to occur on Monday October 24, UTC 04:00. Block times have high variance, so please monitor the chain for more precise time estimates.
+This is a proposal to do a software upgrade to the v2.0.5 software tag of the Panacea codebase on block height 7695777, which is estimated to occur on Monday October 24, UTC 04:00. Block times have high variance, so please monitor the chain for more precise time estimates.
 
 
 ## Upgrade features
@@ -19,3 +19,12 @@ Then, please replace the old `panacead` binary with the new one, and restart the
 https://github.com/medibloc/panacea-mainnet/blob/master/panacea-3/v2.0.5/upgrade.md
 
 If you are using the 'cosmovisor', please build the new 'panacead' binary manually and put that under the 'upgrade' directory. The auto-download is not supported yet because the appropriate version of the 'libwasmvm.so' must be installed manually before starting the auto-download.
+
+
+## Details of Upgrade Time
+
+The proposal targets the upgrade proposal block to be 7695777, anticipated to be on Monday October 24, UTC 04:00. Note that block times have high variance, so keep monitoring the time. See countdown [here](https://www.mintscan.io/medibloc/blocks/7695777).
+
+The upgrade is anticipated to take approx 30 minutes, during which time, there will not be any on-chain activity on the network.
+
+In the event of an issue at upgrade time, we should coordinate via the validators channel in discord to come to a quick emergency consensus and mitigate any further issues.
