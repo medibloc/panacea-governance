@@ -7,13 +7,13 @@ This is a proposal to do a software upgrade to the v2.0.5 software tag of the Pa
 
 This upgrade contains the following changes:
 
-- Upgrades Cosmos SDK from v0.42.11 to v0.45.9 which contains many new features, bug fixes, and especially a IBC security fix: https://forum.cosmos.network/t/ibc-security-advisory-dragonberry/7702.
+- Upgrades Cosmos SDK from v0.42.11 to v0.45.9 which contains many new features, bug fixes, and especially a [IBC security fix](https://forum.cosmos.network/t/ibc-security-advisory-dragonberry/7702).
 - Removes the `x/token` module.
 
 
 ## Actions required by node operators
 
-If this SoftwareUpgrade proposal is approved, the state machine of the `panacead` will be stopped as soon as the chain reaches at the block height 7,695,777. It means that new blocks will not be produced until the `panacead` daemon is restarted with the new version.
+If this SoftwareUpgrade proposal is approved, the state machine of the `panacead` will be stopped as soon as the chain reaches at the block height 7695777. It means that new blocks will not be produced until the `panacead` daemon is restarted with the new version.
 
 Then, please replace the old `panacead` binary with the new one, and restart the daemon by following the guide below.
 https://github.com/medibloc/panacea-mainnet/blob/master/panacea-3/v2.0.5/upgrade.md
