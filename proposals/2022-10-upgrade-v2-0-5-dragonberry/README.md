@@ -12,7 +12,7 @@ This upgrade contains the following changes:
 For details, please see the v2.0.5 release note: https://github.com/medibloc/panacea-core/releases/tag/v2.0.5
 
 
-## Actions required by node operators
+## Actions required of node operators
 
 If this SoftwareUpgrade proposal is approved, the state machine of the `panacead` will be stopped as soon as the chain reaches to the block height 7700000.
 It means that new blocks will not be produced until the `panacead` daemon is restarted with the new version.
