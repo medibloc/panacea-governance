@@ -3,7 +3,7 @@
 set -euxo pipefail
 
 panacead tx gov submit-proposal software-upgrade v2.0.5 \
-	--upgrade-time "2022-10-24T07:00:00Z" \
+	--upgrade-height 7700000 \
 	--node https://rpc.gopanacea.org:443 \
 	--chain-id panacea-3 \
 	--from panacea1ewugvs354xput6xydl5cd5tvkzcuymkejekwk3 \
@@ -12,7 +12,7 @@ panacead tx gov submit-proposal software-upgrade v2.0.5 \
 	-b block \
 	--deposit "10000000000umed" \
 	--title "Panacea v2.0.5 Upgrade" \
-	--description "This proposal is for upgrading the Panacea mainnet 'panacea-3' from v2.0.3 to v2.0.5.
+	--description "This is a proposal to do a software upgrade to the v2.0.5 software tag of the Panacea codebase on block height 7700000, which is estimated to occur on Monday October 24, UTC 06:00. Block times have high variance, so please monitor the chain for more precise time estimates.
 
 ## Upgrade features
 
@@ -26,7 +26,7 @@ For details, please see the v2.0.5 release note: https://github.com/medibloc/pan
 
 ## Actions required by node operators
 
-If this SoftwareUpgrade proposal is approved, the state machine of the 'panacead' will be stopped as soon as a proposed block time '2022-10-24 04:00:00 UTC' is reached.
+If this SoftwareUpgrade proposal is approved, the state machine of the 'panacead' will be stopped as soon as the chain reaches to the block height 7700000.
 It means that new blocks will not be produced until the 'panacead' daemon is restarted with the new version.
 
 Then, please replace the old 'panacead' binary with the new one, and restart the daemon by following the guide below.
@@ -36,6 +36,8 @@ If you are using the Cosmovisor, please build the new 'panacead' binary manually
 
 
 ## Details of Upgrade Time
+
+The proposal targets the upgrade proposal block to be 7700000, anticipated to be on Monday October 24, UTC 06:00. Note that block times have high variance, so keep monitoring the time. See countdown here: https://www.mintscan.io/medibloc/blocks/7700000.
 
 The upgrade is anticipated to take approx 30 minutes, during which time, there will not be any on-chain activity on the network.
 
