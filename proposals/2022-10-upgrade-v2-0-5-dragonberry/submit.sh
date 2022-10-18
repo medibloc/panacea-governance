@@ -32,4 +32,11 @@ It means that new blocks will not be produced until the 'panacead' daemon is res
 Then, please replace the old 'panacead' binary with the new one, and restart the daemon by following the guide below.
 https://github.com/medibloc/panacea-mainnet/blob/master/panacea-3/v2.0.5/upgrade.md
 
-If you are using the Cosmovisor, please build the new 'panacead' binary manually and put that under the 'upgrade' directory. The auto-download is not supported yet because the appropriate version of the 'libwasmvm.so' must be installed manually before starting the auto-download."
+If you are using the Cosmovisor, please build the new 'panacead' binary manually and put that under the 'upgrade' directory. The auto-download is not supported yet because the appropriate version of the 'libwasmvm.so' must be installed manually before starting the auto-download.
+
+
+## Details of Upgrade Time
+
+The upgrade is anticipated to take approx 30 minutes, during which time, there will not be any on-chain activity on the network.
+
+In the event of an issue at upgrade time, we should coordinate via the validators channel in discord to come to a quick emergency consensus and mitigate any further issues."
