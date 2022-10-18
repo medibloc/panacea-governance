@@ -14,7 +14,7 @@ For details, please see the v2.0.5 release note: https://github.com/medibloc/pan
 
 ## Actions required by node operators
 
-If this SoftwareUpgrade proposal is approved, the state machine of the `panacead` will be stopped as soon as a proposed block time '2022-10-24 04:00:00 UTC' is reached.
+If this SoftwareUpgrade proposal is approved, the state machine of the `panacead` will be stopped as soon as a proposed block time `2022-10-24 07:00:00 UTC` is reached.
 It means that new blocks will not be produced until the `panacead` daemon is restarted with the new version.
 
 Then, please replace the old `panacead` binary with the new one, and restart the daemon by following the guide below.
