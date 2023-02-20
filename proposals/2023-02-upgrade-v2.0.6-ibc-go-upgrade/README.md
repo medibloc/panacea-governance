@@ -1,3 +1,5 @@
+#Panacea v2.0.6 Upgrade
+
 ##Background
 This is a draft of our SW Upgrade proposal to do a software upgrade to v2.0.6 software tag of the Panacea codebase. The purpose of sharing this draft is to gather validators feedback before we submit the proposal.
 
