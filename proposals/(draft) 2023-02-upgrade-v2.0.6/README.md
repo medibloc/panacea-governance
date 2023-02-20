@@ -5,9 +5,9 @@ This is a draft of our SW Upgrade proposal to do a software upgrade to v2.0.6 so
 Panacea team would like to propose that we upgrade our chain’s ibc-go from v2 to v4.3.0 (with cosmos-sdk v0.45.12 and informalsystems/tendermint v0.34.24) and remove CosmWasm from the chain.
 
 We believe that removing CosmWasm requires some explanation from our end whereas upgrading ibc-go is straightforward to most of you.
-Pancaea team first implemented CosmWasm to accomodate a possible NFT usage on the chain. However, because of below three reasons, we now think that it is more reasonable for us to remove CosmWasm from the chain.
+Pancaea team first adopted CosmWasm to accomodate a possible NFT usage on the chain. However, because of below three reasons, we now think that it is more reasonable for us to remove CosmWasm from the chain.
+- No clear use case for CosmWasm at this point
 - Hardship in removing CosmWasm once somebody starts using it; currently, nobody is using CosmWasm on Panacea yet
-- Possibility that anybody can deploy a contract that does not fit the purpose of Panacea
 - Replacable through Cosmos SDK v0.46.x that now includes x/nft module later
 
 ## Upgrade features
