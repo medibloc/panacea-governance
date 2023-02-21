@@ -1,5 +1,5 @@
 ## Background
-This is a draft of our SW Upgrade proposal to do a software upgrade to v2.0.6 software tag of the Panacea codebase. The purpose of sharing this draft is to gather validators feedback before we submit the proposal.
+This is a draft of our SW Upgrade proposal to do a software upgrade to v2.0.6 tag of the Panacea codebase. The purpose of sharing this draft is to gather validators feedback before we submit the proposal.
 
 ## Proposal
 Panacea team would like to propose that we upgrade our chain’s ibc-go from v2 to v4.3.0 (with cosmos-sdk v0.45.12 and informalsystems/tendermint v0.34.24) and remove CosmWasm from the chain.
