@@ -14,8 +14,8 @@ Pancaea team first adopted CosmWasm to accomodate a possible NFT usage on the ch
 
 ## Upgrade features
 This upgrade contains the following changes:
-- Upgrade ibc-go from v2 to v4.3.0 (with cosmos-sdk v0.45.12 and informalsystems/tendermint v0.34.24)
-- Remove CosmWasm
+- [\#635](https://github.com/medibloc/panacea-core/pull/635) Upgrade ibc-go from v2 to v4.3.0 (with cosmos-sdk v0.45.12 and informalsystems/tendermint v0.34.24)
+- [\#640](https://github.com/medibloc/panacea-core/pull/640) Remove CosmWasm
 
 ## What’s next
 Once we gather enough comments and feedbacks from the validators and conclude that there is no issue in going through with the software upgrade proposal, we will generate a SW Upgrade Proposal
