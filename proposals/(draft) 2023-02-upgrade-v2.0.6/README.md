@@ -7,9 +7,9 @@ Panacea team would like to propose that we upgrade our chain’s ibc-go from v2 
 We believe that removing CosmWasm requires some explanation from our end whereas upgrading ibc-go is straightforward to most of you. 
 (For more information on ibc-go upgrade, please refer to this link - https://github.com/cosmos/ibc-go/blob/main/RELEASES.md#stable-release-policy)
 
-Pancaea team first adopted CosmWasm to accomodate a possible NFT usage on the chain. However, because of below three reasons, we now think that it is more reasonable for us to remove CosmWasm from the chain.
+Pancaea team first adopted CosmWasm to accomodate a possible NFT usage on the chain. However, because of below two reasons, we now think that it is more reasonable for us to remove CosmWasm from the chain.
 - No clear use case for CosmWasm at this point
-- Hardship in removing CosmWasm once somebody starts using it; currently, nobody is using CosmWasm on Panacea yet
+  - We also expect hardship in removing CosmWasm once somebody starts using it; currently, nobody is using CosmWasm on Panacea yet
 - Replacable through Cosmos SDK v0.46.x that now includes x/nft module later
 
 ## Upgrade features
