@@ -1,5 +1,6 @@
 # Panacea v2.0.6 Upgrade
 This is a proposal to do a software upgrade to the v2.0.6 software tag of the Panacea codebase on block height 9692000, which is estimated to occur on Wednesday March 08 2023 05:36:00 UTC 
+
 Block times have high variance, so please monitor the chain for more precise time estimates.
 
 ## Proposal
