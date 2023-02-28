@@ -1,5 +1,5 @@
 # Panacea v2.0.6 Upgrade
-This is a proposal to do a software upgrade to the v2.0.6 software tag of the Panacea codebase on block height 9692000, which is estimated to occur on Wednesday March 08 2023 05:36:00 UTC 
+This is a proposal to do a software upgrade to the v2.0.6 software tag of the Panacea codebase on block height 9692000, which is estimated to occur on Wednesday March 8, UTC 05:40
 
 Block times have high variance, so please monitor the chain for more precise time estimates.
 
@@ -32,7 +32,7 @@ If you are using the Cosmovisor, please build the new `panacead` binary manually
 
 ## Details of Upgrade Time
 
-The proposal targets the upgrade proposal block to be 9692000, estimated to occur on Wednesday March 08 2023 UTC 05:36:00. Note that block times have high variance, so keep monitoring the time. See countdown here: https://www.mintscan.io/medibloc/blocks/9692000.
+The proposal targets the upgrade proposal block to be 9692000, estimated to occur on Wednesday March 8, UTC 05:40. Note that block times have high variance, so keep monitoring the time. See countdown here: https://www.mintscan.io/medibloc/blocks/9692000.
 
 The upgrade is anticipated to take approx 30 minutes, during which time, there will not be any on-chain activity on the network.
 
