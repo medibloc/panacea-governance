@@ -11,7 +11,7 @@ panacead tx gov submit-proposal software-upgrade v2.0.7 \
         --gas-prices 5umed \
         --gas-adjustment 1.3 \
         -b block \
-        --deposit "1umed" \
+        --deposit "10000000000umed" \
         --title "Panacea v2.0.7 Upgrade" \
         --description "# Panacea v2.0.7 Upgrade
 
