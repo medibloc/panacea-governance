@@ -7,9 +7,9 @@ Block times have high variance, so please monitor the chain for more precise tim
 
 ## Proposal
 
-Panacea team would like to propose that we upgrade our chain to v2.0.7 that enables a governance proposal for updating IBC client.
+Panacea team would like to propose that we upgrade our chain to v2.0.7 that enables a governance proposal type for updating IBC client.
 
-- [\#658](https://github.com/medibloc/panacea-core/pull/658) Enable a governance proposal for updating IBC client
+- [\#659](https://github.com/medibloc/panacea-core/pull/659) feat: add missing ibc route and ibc client settings
 
 
 ## Actions required of node operators
