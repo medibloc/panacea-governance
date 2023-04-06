@@ -17,7 +17,6 @@ In addition, we suggest lowering the minimum proposition to induce active partic
 Currently, the minimum cost to submit a proposal is 100,000 MED which is quite big.<br/>
 So, we propose to change it to 10,000 MED to lower a hurdle to register proposals (600 USD approximately on Sep 2021).
 
-
 ### Expected effects
 
 - The 2% of staking rewards will go to the community pool which can be spent only through governances.

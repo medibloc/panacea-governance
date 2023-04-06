@@ -14,13 +14,13 @@ Panacea team would like to propose that we upgrade our chain to v2.0.7 that enab
 
 ## Actions required of node operators
 
-If this SoftwareUpgrade proposal is approved, the state machine of the `panacead` will be stopped as soon as the chain reaches to the block height 10196856.
-It means that new blocks will not be produced until the `panacead` daemon is restarted with the new version.
+If this SoftwareUpgrade proposal is approved, the state machine of the 'panacead' will be stopped as soon as the chain reaches to the block height 10196856.
+It means that new blocks will not be produced until the 'panacead' daemon is restarted with the new version.
 
-Then, please replace the old `panacead` binary with the new one, and restart the daemon by following the guide below.
+Then, please replace the old 'panacead' binary with the new one, and restart the daemon by following the guide below.
 https://github.com/medibloc/panacea-mainnet/blob/master/panacea-3/v2.0.7/upgrade.md
 
-If you are using the Cosmovisor, please build the new `panacead` binary manually and put that under the `upgrade` directory. The auto-download is not supported yet as per the following guide from cosmovisor.(https://docs.cosmos.network/main/tooling/cosmovisor#auto-download).
+If you are using the Cosmovisor, please build the new 'panacead' binary manually and put that under the 'upgrade' directory. The auto-download is not supported yet as per the following guide from cosmovisor.(https://docs.cosmos.network/main/tooling/cosmovisor#auto-download).
 
 
 ## Details of Upgrade Time
