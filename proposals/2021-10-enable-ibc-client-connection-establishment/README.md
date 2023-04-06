@@ -1,12 +1,12 @@
 # Enable the establishment of IBC clients and connections
 
-For enabling IBC with other Cosmos-based chains, proper client types should be registered to the IBC genesis parameter: `allowed_clients`. First of all, the Tendermint light client must be allowed because most of Cosmos-based chains are compatible with the Tendermint light client. Also, we would like to allow the Solo Machine light client for future use. These client types are recommended by Cosmos SDK.
+For enabling IBC with other Cosmos-based chains, proper client types should be registered to the IBC genesis parameter: 'allowed_clients'. First of all, the Tendermint light client must be allowed because most of Cosmos-based chains are compatible with the Tendermint light client. Also, we would like to allow the Solo Machine light client for future use. These client types are recommended by Cosmos SDK.
 
-Also, the staking module must be configured with `historical_entries > 0` which had not exist in the previous genesis of Panacea v1.3.3 (based on Cosmos SDK v0.37.14). This is to make sure that local header information is stored in the IBC state and therefore client proofs that are part of the connection handshake messages can be verified. If this is not the case, the IBC connection handshake fails with the error: `connection handshake open ack failed: self consensus state not found`.
+Also, the staking module must be configured with 'historical_entries > 0' which had not exist in the previous genesis of Panacea v1.3.3 (based on Cosmos SDK v0.37.14). This is to make sure that local header information is stored in the IBC state and therefore client proofs that are part of the connection handshake messages can be verified. If this is not the case, the IBC connection handshake fails with the error: 'connection handshake open ack failed: self consensus state not found'.
 
 ## Parameter Changes
 
-```json
+'''json
 [
   {
     "subspace": "ibc",
@@ -19,4 +19,4 @@ Also, the staking module must be configured with `historical_entries > 0` which 
     "value": 10000
   }
 ]
-```
+'''
