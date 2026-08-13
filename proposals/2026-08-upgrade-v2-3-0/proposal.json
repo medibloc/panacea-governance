@@ -1,0 +1,19 @@
+{
+  "messages": [
+    {
+      "@type": "/cosmos.upgrade.v1beta1.MsgSoftwareUpgrade",
+      "authority": "panacea10d07y265gmmuvt4z0w9aw880jnsr700jhd0rds",
+      "plan": {
+        "name": "v2.3.0",
+        "time": "0001-01-01T00:00:00Z",
+        "height": "28074600",
+        "info": "",
+        "upgraded_client_state": null
+      }
+    }
+  ],
+  "metadata": "https://github.com/medibloc/panacea-governance/blob/6888ebd5006ca71535123cf806f76e1c198411aa/proposals/2026-08-upgrade-v2-3-0/README.md",
+  "deposit": "10000000000umed",
+  "title": "Panacea Mainnet v2.3.0 Upgrade",
+  "summary": "Upgrade Panacea mainnet to v2.3.0 at height 28074600.\n\nProposal details:\nhttps://github.com/medibloc/panacea-governance/blob/6888ebd5006ca71535123cf806f76e1c198411aa/proposals/2026-08-upgrade-v2-3-0/README.md"
+}
